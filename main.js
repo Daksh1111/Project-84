@@ -1,5 +1,3 @@
-
-
 canvas = document.getElementById("myCanvas");
 ctx = canvas.getContext("2d");
 
@@ -60,10 +58,11 @@ function my_keydown(e)
 		}
 
 		if((keyPressed >=1 && keyPressed<=16) || (keyPressed >=19 && keyPressed<=26) || (keyPressed>=28 && keyPressed<=36) || (keyPressed>=41 && keyPressed<=47) || (keyPressed>=58 && keyPressed<=64) || (keyPressed>=91 && keyPressed<=96) || (keyPressed>=123 && keyPressed<=128))
-          
+         {
 		otherkey();
 			document.getElementById("d1").innerHTML="You pressed Other Key";
 			console.log("Other Key");
+		 }
 		
 }
 
